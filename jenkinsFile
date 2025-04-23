@@ -29,8 +29,8 @@ pipeline {
                           -w /usr/src \
                           newtmitch/sonar-scanner \
                           sonar-scanner \
-                          -Dsonar.projectKey=BankApp \
-                          -Dsonar.projectName=BankApp \
+                          -Dsonar.projectKey=Java-bankapp \
+                          -Dsonar.projectName=Java-bankapp \
                           -Dsonar.sources=. \
                           -Dsonar.java.binaries=target/classes \
                           -Dsonar.host.url=${SONAR_HOST_URL} \
