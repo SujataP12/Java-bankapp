@@ -1,0 +1,25 @@
+# Java
+*.class
+*.jar
+*.war
+*.ear
+
+# Maven
+/target/
+
+# VS Code
+.vscode/
+.history/
+
+# Logs
+*.log
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Environment variables or secrets
+.env
+
+# Optional: lib JARs if added manually
+/lib/*.jar
